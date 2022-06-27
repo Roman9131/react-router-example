@@ -1,6 +1,6 @@
-import React from "react";
+import React, {FC} from "react";
 
-const VueInfo = () => {
+const VueInfo: FC = () => {
 	return (
 		<div className="container">
 			<p className="title">

@@ -6,6 +6,9 @@ import './App.css';
 
 
 function App() {
+	// const state = {'page_id': 1, 'user_id': 5};
+	// const title = 'Title';
+	// const url = 'hello-world.html';
 	return (
 		<div className="App">
 			<header className="App-header">
@@ -13,9 +16,15 @@ function App() {
 					Современные JavaScript библиотеки и фреймворки для создания пользовательских интерфейсов
 				</p>
 			</header>
+			{/*<div>History state: {JSON.stringify(window.history.state)}</div>*/}
+			{/*<div style={{wordBreak: "break-word"}}>Location: {JSON.stringify(window.location)}</div>*/}
+			{/*<div>*/}
+			{/*	<button onClick={() => window.history.pushState(state, title, url)}>Добавить историю</button>*/}
+			{/*	<button onClick={() => window.history.back()}>Назад</button>*/}
+			{/*</div>*/}
+			<AngularInfo/>
 			<ReactInfo/>
 			<VueInfo/>
-			<AngularInfo/>
 		</div>
 	);
 }
